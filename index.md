@@ -4,5 +4,5 @@
 
 layout: default
 ---
-[Stücke(/stuecke)]
-[Ensemble(/ensemble)]
+[Stücke](/stuecke)
+[Ensemble](/ensemble)

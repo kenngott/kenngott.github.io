@@ -4,6 +4,7 @@ layout: post
 <h2> Rollen </h2>
 <ul>
     {% for rollen in site.stuecke %}
+        {{page.content}}
         <li> <a href= "{{rollen.url}}">{{rollen.title}}</a></li>
     {% endfor %}
 </ul>

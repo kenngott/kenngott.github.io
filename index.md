@@ -6,3 +6,4 @@ layout: default
 ---
 [Stücke](/stuecke)
 [Ensemble](/ensemble)
+[Über uns](/about)

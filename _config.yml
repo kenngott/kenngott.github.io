@@ -25,10 +25,12 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-#theme: minima
-#theme: jekyll-theme-minimal
+# GitHub Pages falls back to the Primer theme when none is set; naming it here
+# makes local builds match. It provides /assets/css/style.css.
+theme: jekyll-theme-primer
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 collections:
   ensemble:
@@ -39,7 +41,12 @@ collections:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+# Default exclusions, for reference:
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
